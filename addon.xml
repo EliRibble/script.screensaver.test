@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.screensaver.test"
-       name="Python Screensaver TEST"
+<addon id="script.screensaver.rs232tvoff"
+       name="RS232 TV Off"
        version="0.0.1"
-       provider-name="Tristan Fischer (sphere@dersphere.de)">
+       provider-name="Eli Ribble (junk@theribbles.org)">
   <requires>
     <import addon="xbmc.python"
             version="2.0"/>
@@ -11,7 +11,7 @@
              library="default.py" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">A simple Proof of Concept Python Screensaver</summary>
-    <description lang="en">A simple Proof of Concept Python Screensaver</description>
+    <summary lang="en">A screensaver that turns off the TV via rs232</summary>
+    <description lang="en">This screensaver will turn your TV off. Rad.</description>
   </extension>
 </addon>
